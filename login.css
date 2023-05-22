@@ -7,14 +7,14 @@
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
-    color: #666666;
-    margin-left: 7%;
+    color: #7f7f7f;
+    margin-left: 35%;
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
-    color: #666666;
+    color: #7f7f7f;
     margin-left: 10%;
 } 
 
@@ -27,10 +27,10 @@ fieldset {
 
 /* Elemento de tag <body> */
 body{
-    background-color: #bbf3f9;
+    background-color: #b6d7db;
     font-family: sans-serif;
     font-size: 1em;
-    color: #666666;
+    color: #7f7f7f;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -40,8 +40,19 @@ body{
 input, select, textarea, button {
     font-family: sans-serif;
     font-size: 1em;
-    color: #666666;
+    color: #7f7f7f;
     border-radius: 5px;
+}
+
+.partebranca{
+    background-color: #f7f7f5;
+    width: 300px;
+    padding: 90px;
+    margin: 40px auto 0 auto;
+    box-shadow: 0px 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-left: 5%;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
@@ -62,27 +73,30 @@ input, select, textarea, button {
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
     margin-bottom: 0.2em;
-    color: #666666;
+    color: #7f7f7f;
     display: block;
+    margin-left: 10%;
 }
 
 /* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
 fieldset.grupo .campo {
     float:  left;
-    margin-right: 1em;
+    margin-left: 10%;
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo select, .campo textarea {
     padding: 0.2em;
-    border: 1px solid #666666;
-    box-shadow: 2px 2px 2px #666666;
+    border: 1px solid #7f7f7f;
+    box-shadow: 2px 2px 2px #7f7f7f;
     display: block;
+    margin-left: 10%;
 }
 
 /* Elementos de classe "campo" de tag <select> e <option>*/
 .campo select option {
     padding-right: 1em;
+    margin-left: 10%;
 }
 
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
@@ -93,28 +107,34 @@ fieldset.grupo .campo {
 /* Elemento de classe "botao" */
 .botao {
     font-size: 1.2em;
-    background: #a8cbc5;
+    background: #7f7f7f;
     border: 0;
-    margin-bottom: 1em;
-    color: #666666;
+    color: #ebebeb;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px #666666;
-    text-shadow: 1px 1px 1px #666666;
+    box-shadow: 2px 2px 2px #7f7f7f;
+    text-shadow: 1px 1px 1px #7f7f7f;
     position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
+    top: 40%;
+    left: 49%;
+    margin-left: 3%;
     transform: translate(-50%, -50%)
 }
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
-    background: #dadada;
-    box-shadow: inset 2px 2px 2px #666666;
+    background: #ebebeb;
+    box-shadow: inset 2px 2px 2px #ebebeb;
+    color: #7f7f7f;
     text-shadow: none;
 }
 
-/* Elementos de classe botão e de tag <select> */
-.botao, select{
-    cursor: pointer;
+.mensagem{
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 18px;   
+    margin-left: 25%;
+}
+
+.mensagem:hover{
+    color: #b6d7db;
 }
