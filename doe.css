@@ -9,10 +9,14 @@
 
 body{
     font-size: 100%;
-    background-color: #c8ebff;
+    background-color: #b6d7db;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
 }
 
-.cabecalho{
+/*.cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +34,7 @@ body{
 }
 
 .cabecalho-menu-item{
-    /*fon-family*/
+  
     color: #7f7f7f;
     font-weight: 400;
     font-size: 18px;   
@@ -38,7 +42,7 @@ body{
 }
 .cabecalho-menu-item:hover{
     color: #cfcfcf;
-}
+}*/
 
 .conteudo{
     margin-bottom: 48px;
@@ -77,7 +81,7 @@ body{
 .conteudo-principal-imagem{
     height: 430px;
 }
-
+/*
 .conteudo-secundario{
     display:flex;
     flex-direction: column;
@@ -87,11 +91,24 @@ body{
 }
 
 .conteudo-secundario-titulo{
-    /*fonte*/
     font-weight: 400;
     font-size: 24px;
     color: #7f7f7f;
     margin-bottom: 16px;
+    font-family: 'GFS Neohellenic', sans-serif;
+}*/
+
+.conteudo-principal-paragrafo{
+    font-weight: 300;
+    font-size: 18px;
+    color:#7f7f7f;
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.conteudo-secundario-escrito-subtitulo{
+    font-weight: 400;
+    font-size: 24px;
+    color: #7f7f7f;
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
@@ -102,15 +119,14 @@ body{
     color:#7f7f7f;
     font-family: 'GFS Neohellenic', sans-serif;
 }
-
+/*
 .conteudo-terciario-titulo{
-    /*fonte*/
     font-weight: 400;
     font-size: 24px;
     color: #7f7f7f;
     margin-bottom: 16px;
     font-family: 'GFS Neohellenic', sans-serif;
-}
+}*/
 
 .conteudo-terciario-paragrafo{
     /*fonte*/
@@ -120,48 +136,9 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
-.rodape{
-    display: flex;
-    align-items: stretch;
-    justify-content: space-evenly;
-    padding: 24px;
-    max-height: 300px;
-    border-top: 0.4px solid #7f7f7f ;
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-.rodape-menu{
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.rodape-menu-item{
-    flex-direction: row;
-    color: #7f7f7f;
+.conteudo-quartenario-paragrafo{
     font-weight: 300;
-    font-size: 18px;   
-}
-
-.partebranca{/*tem que colocar esse do lado do outro, mudar fonte e adicionar logo lá em cima+foto do lado do titulo e mudar as cores*/
-    background-color: #b6d7db;
-    width: 300px;
-    padding: 40px;
-    margin: 40px auto 0 auto;
-    box-shadow: 0px 6px 10px;
-    border-radius: 5px;
-    margin-bottom: 60px;
-    margin-left: 5%;
-}
-
-.partebrancad{
-    background-color: #b6d7db;
-    width: 300px;
-    padding: 40px;
-    margin: 40px auto 0 auto;
-    box-shadow: 0px 6px 10px;
-    border-radius: 5px;
-    margin-bottom: 60px;
-    margin-left: 5%;
+    font-size: 18px;
+    color:#7f7f7f;
+    font-family: 'GFS Neohellenic', sans-serif;
 }

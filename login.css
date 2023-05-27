@@ -1,4 +1,6 @@
 /* Todos os elementos da página */
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +8,14 @@
 
 /* Elementos com o ID "titulo" */
 #titulo {
-    font-family: sans-serif;
+    font-family: 'GFS Neohellenic', sans-serif;
     color: #7f7f7f;
     margin-left: 35%;
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
-    font-family: sans-serif;
+    font-family: 'GFS Neohellenic', sans-serif;
     color: #7f7f7f;
     margin-left: 10%;
 } 
@@ -28,7 +30,7 @@ fieldset {
 /* Elemento de tag <body> */
 body{
     background-color: #b6d7db;
-    font-family: sans-serif;
+    font-family: 'GFS Neohellenic', sans-serif;
     font-size: 1em;
     color: #7f7f7f;
     margin-left: 36%;
@@ -38,7 +40,7 @@ body{
 
 /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
 input, select, textarea, button {
-    font-family: sans-serif;
+    font-family: 'GFS Neohellenic', sans-serif;
     font-size: 1em;
     color: #7f7f7f;
     border-radius: 5px;
@@ -132,6 +134,7 @@ fieldset.grupo .campo {
     color: #7f7f7f;
     font-weight: 400;
     font-size: 18px;   
+    font-family: 'GFS Neohellenic', sans-serif;
     margin-left: 25%;
 }
 
