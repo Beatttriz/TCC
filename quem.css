@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*colocar texto em blocos*/
+body{
+    font-size: 100%;
+    background-color: #b6d7db;
+   /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;*/
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item{
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 18px;   
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #7f7f7f;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.titulo{
+    font-weight: 400;
+    font-size: 64px;
+    color: #7f7f7f;
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.textos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin-top: 24px;
+    margin-left: 400px;
+}
+
+.nome{
+    background-color: #f7f7f5;
+    width: 300px;
+    padding: 40px;
+    margin: 40px auto 0 auto;
+    box-shadow: 0px 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-left: 5%;
+}
+
+.nomes{
+    font-weight: 400;
+    font-size: 35px;
+    color: #7f7f7f;
+    margin-bottom: 16px;
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.sinopse{
+    font-weight: 300;
+    font-size: 24px;
+    color:#7f7f7f;
+    font-family: 'GFS Neohellenic', sans-serif;
+    margin-bottom: 200px;
+}
+
+.imagem-Emi{
+    height: 43px;
+}
+
+.imagen-Bia{
+    height: 43px;
+}
+
+.rodape{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 24px;
+    max-height: 300px;
+    border-top: 0.4px solid #7f7f7f ;
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.rodape-menu{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rodape-item{
+    flex-direction: row;
+    color: #7f7f7f;
+    font-weight: 300;
+    font-size: 18px;
+}
