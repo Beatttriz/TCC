@@ -16,7 +16,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     padding: 24px;
     background-color: #b6d7db;
     margin-top: auto;
@@ -25,17 +24,21 @@ body{
 .cabecalho-imagem{
     height: 59px;
     flex-direction: start;
+    margin-right: 770px;
 }
 
 .cabecalho-menu{
     display: flex;
     gap: 32px;
+    background-color: #c7c4c4; 
+    border:2px solid rgb(129, 129, 130); 
+    padding: 20px; 
+    margin: 20px;
 }
 
 .cabecalho-item{
     /*fon-family*/
     color: #7f7f7f;
-    background-color: ;
     font-weight: 400;
     font-size: 18px;   
     font-family: 'GFS Neohellenic', sans-serif;
@@ -80,6 +83,7 @@ body{
 
 .conteudo-imagem{
     height: 430px;
+    margin-right: 50px
 }
 
 .conteudo-secundario{
