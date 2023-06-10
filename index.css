@@ -18,10 +18,13 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    background-color: #b6d7db;
+    margin-top: auto;
 }
 
 .cabecalho-imagem{
-    height: 72px;
+    height: 59px;
+    flex-direction: start;
 }
 
 .cabecalho-menu{
@@ -29,14 +32,15 @@ body{
     gap: 32px;
 }
 
-.cabecalho-menu-item{
+.cabecalho-item{
     /*fon-family*/
     color: #7f7f7f;
+    background-color: ;
     font-weight: 400;
     font-size: 18px;   
     font-family: 'GFS Neohellenic', sans-serif;
 }
-.cabecalho-menu-item:hover{
+.cabecalho-item:hover{
     color: #cfcfcf;
 }
 
@@ -52,13 +56,13 @@ body{
     justify-content: space-around;
 }
 
-.conteudo-principal-escrito{
+.conteudo-p-escrito{
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.conteudo-principal-escrito-titulo{
+.conteudo-pe-titulo{
     /*font-family*/
     font-weight: 400;
     font-size: 64px;
@@ -66,7 +70,7 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
-.conteudo-principal-escrito-subtitulo{
+.conteudo-pe-subtitulo{
     /*fonte*/
     font-weight: 400;
     font-size: 24px;
@@ -74,7 +78,7 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
-.conteudo-principal-imagem{
+.conteudo-imagem{
     height: 430px;
 }
 
@@ -86,7 +90,7 @@ body{
     margin-top: 48px;
 }
 
-.conteudo-secundario-titulo{
+.conteudo-s-titulo{
     /*fonte*/
     font-weight: 400;
     font-size: 24px;
@@ -95,24 +99,7 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
-.conteudo-secundario-paragrafo{
-    /*fonte*/
-    font-weight: 300;
-    font-size: 18px;
-    color:#7f7f7f;
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-.conteudo-terciario-titulo{
-    /*fonte*/
-    font-weight: 400;
-    font-size: 24px;
-    color: #7f7f7f;
-    margin-bottom: 16px;
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-.conteudo-terciario-paragrafo{
+.conteudo-s-paragrafo{
     /*fonte*/
     font-weight: 300;
     font-size: 18px;
@@ -137,7 +124,7 @@ body{
     flex-direction: column;
 }
 
-.rodape-menu-item{
+.rodape-item{
     flex-direction: row;
     color: #7f7f7f;
     font-weight: 300;
