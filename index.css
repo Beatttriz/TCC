@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background-color: #c8ebff;
+    background-color: #d9d9d8;
 }
 
 .cabecalho{
@@ -25,31 +25,29 @@ body{
     height: 59px;
     flex-direction: start;
     margin-right: 770px;
+    margin-left: 20px;
+    padding: 5px;
 }
 
 .cabecalho-menu{
     display: flex;
     gap: 32px;
-    background-color: #c7c4c4; 
-    border:2px solid rgb(129, 129, 130); 
-    padding: 20px; 
-    margin: 20px;
 }
 
 .cabecalho-item{
     /*fon-family*/
-    color: #7f7f7f;
+    display: flex;
+    color: #979696;
     font-weight: 400;
     font-size: 18px;   
     font-family: 'GFS Neohellenic', sans-serif;
 }
 .cabecalho-item:hover{
-    color: #cfcfcf;
+    color: #646464;
 }
 
 .conteudo{
-    margin-bottom: 48px;
-    border-top: 0.4px solid #7f7f7f;
+    border-top: 0.10px solid #7f7f7f;
 }
 
 .conteudo-principal{
@@ -60,9 +58,10 @@ body{
 }
 
 .conteudo-p-escrito{
+    height: 300px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
 }
 
 .conteudo-pe-titulo{
@@ -83,12 +82,17 @@ body{
 
 .conteudo-imagem{
     height: 430px;
-    margin-right: 50px
+    margin-left: 310px;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: auto;
+    display: flex;
 }
 
 .conteudo-secundario{
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
     margin-top: 48px;
@@ -112,6 +116,7 @@ body{
 }
 
 .rodape{
+    background-color:#b6d7db;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
