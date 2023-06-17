@@ -23,6 +23,9 @@ body{
 
 .cabecalho-imagem{
     height: 59px;
+    flex-direction: start;
+    margin-right: 770px;
+    margin-left: 20px;
     padding: 5px;
 }
 
@@ -45,8 +48,7 @@ body{
 
 .conteudo{
     border-top: 0.1px solid #7f7f7f;
-    display: flex;
-}
+    display: flex;}
 
 .conteudo-principal{
     display: flex;
