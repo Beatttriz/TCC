@@ -39,11 +39,25 @@ body{
     display: flex;
     color: #979696;
     font-weight: 400;
-    font-size: 18px;   
-    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 15px;   
+    font-family:monospace;
+    justify-content: center;
 }
 .cabecalho-item:hover{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    outline: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0;
     color: #646464;
+    
 }
 
 .conteudo{
