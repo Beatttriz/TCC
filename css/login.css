@@ -1,0 +1,94 @@
+/* Todos os elementos da página */
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: 'GFS Neohellenic', sans-serif;
+    color: #7f7f7f;
+    margin-left: 20%;
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: -30%;
+} 
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-color: #b6d7db;
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 1em;
+    color: #7f7f7f;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+input, button {
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 1em;
+    color: #7f7f7f;
+}
+
+.quadrado{
+    background-color: #f7f7f5;
+    width: 25%;
+    padding: 15%;
+    box-shadow: 0px 5px 10px;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.campo label {
+    margin-bottom: 5%;
+    margin-top: 2%;
+    color: #7f7f7f;
+    display: block;
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.campo input[type="email"], .campo input[type="password"] {
+    padding: 2%;
+    border: 1px solid #7f7f7f;
+    box-shadow: 2px 2px 2px #7f7f7f;
+    display: block;
+    margin-left: 5%;
+    width: 95%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+}
+
+.botao {
+    font-size: 20px;
+    background: #7f7f7f;
+    border: 0;
+    color: #ebebeb;
+    padding: 10px 30px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+.botao:hover {
+    background: #ebebeb;
+    box-shadow: 2px 2px 2px #7f7f7f;
+    color: #7f7f7f;
+}
+
+.mensagem{
+    color: #7f7f7f;
+    font-size: 20px;   
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+.mensagem:hover{
+    color: #b6d7db;
+}
