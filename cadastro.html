@@ -1,54 +1,38 @@
 <!doctype html>
 <html>
-
     <head>
-        <!-- Metadados -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-        <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
-
-        <!-- Título da página (aparece na aba) -->
+        <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="screen">
         <title>Cadastro</title>
     </head>
-
     <body>  
-        <div class="partebranca">
+        <div class="quadrado">
             <fieldset>
-
-        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
                 <div>
                     <h1 id="titulo">Cadastre-se</h1>
-                    <p id="subtitulo">Complete com suas informações</p>
                     <br>
                 </div>
-
-        <!-- Início do formulário -->
                 <form>
                     <div class="campo">
-                        <label for="nome"><strong>Nome</strong></label>
+                        <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome" required>
                     </div>
-            
-            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
                     <div class="campo">
-                        <label for="sobrenome"><strong>Sobrenome</strong></label>
+                        <label for="sobrenome">Sobrenome</label>
                         <input type="text" name ="sobrenome" id="sobrenome" required>
                     </div>
-            
                     <div class="campo">
-                        <label for="cpf"><strong>CPF</strong></label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
+                        <label for="cpf">CPF</label>
+                        <input type="number" name="cpf" id="cpf" required>
                     </div>
 
                     <div class="campo">
-                        <label for="email"><strong>E-mail</strong></label>
+                        <label for="email">E-mail</label>
                         <input type="email" name="email" id="email" required>
                     </div>
-
                     <div class="campo">
-                        <label for="senha"><strong>Senha de acesso</strong></label>
+                        <label for="senha">Senha de acesso</label>
                         <input type="password" name="senha" id="senha" required>
                     </div>
                     <div class="campo">
@@ -57,7 +41,5 @@
                 </form>
             </fieldset>
         </div>
-
     </body>
-
 </html>

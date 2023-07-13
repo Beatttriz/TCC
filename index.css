@@ -9,19 +9,24 @@
 
 body{
     font-size: 100%;
-    background-color: #c8ebff;
+    background-color: #d9d9d8;
 }
 
 .cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     padding: 24px;
+    justify-content: space-between;
+    background-color: #b6d7db;
 }
 
 .cabecalho-imagem{
-    height: 72px;
+    height: 59px;
+    padding: 5px;
+    flex-direction: start;
+    margin-left: 20px;
+    float: left;
 }
 
 .cabecalho-menu{
@@ -29,20 +34,47 @@ body{
     gap: 32px;
 }
 
-.cabecalho-menu-item{
-    /*fon-family*/
+.logo {
+    margin-right: 90px;
+    font-weight: bold;
+    font-size: 9px;
     color: #7f7f7f;
-    font-weight: 400;
-    font-size: 18px;   
-    font-family: 'GFS Neohellenic', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    gap: 20px;
 }
-.cabecalho-menu-item:hover{
-    color: #cfcfcf;
+
+
+
+.logo img{
+    padding-left: 0px;
+}
+
+.cabecalho-item{
+    /*fon-family*/
+    font-weight: bold;
+    transition: 0.5s;
+    display: flex;
+    color: #979696;
+    font-size: 15px;   
+    justify-content: center;
+    font-family: 'Arial','GFS Neohellenic', sans-serif;
+    cursor: pointer;
+}
+.cabecalho-item:hover{
+    font-weight: bold;
+    border-bottom: 0.1px solid #7f7f7f;
+    display: inline-block;
+    outline: 0;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    color: #646464;
 }
 
 .conteudo{
-    margin-bottom: 48px;
-    border-top: 0.4px solid #7f7f7f;
+    border-top: 0.1px solid #7f7f7f;
+    display: flex;
 }
 
 .conteudo-principal{
@@ -52,21 +84,23 @@ body{
     justify-content: space-around;
 }
 
-.conteudo-principal-escrito{
+.conteudo-p-escrito{
+    height: 300px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
 }
 
-.conteudo-principal-escrito-titulo{
+.conteudo-pe-titulo{
     /*font-family*/
-    font-weight: 400;
-    font-size: 64px;
+    margin-right: 90px;
+    font-weight: bold;
+    font-size: 2dvh;
     color: #7f7f7f;
-    font-family: 'GFS Neohellenic', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.conteudo-principal-escrito-subtitulo{
+.conteudo-pe-subtitulo{
     /*fonte*/
     font-weight: 400;
     font-size: 24px;
@@ -74,19 +108,21 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
-.conteudo-principal-imagem{
-    height: 430px;
+.conteudo-imagem{
+    border-radius: 100vw;
+    height: 300px;
+    margin-right: 60px;
 }
 
 .conteudo-secundario{
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
-    margin-top: 48px;
 }
 
-.conteudo-secundario-titulo{
+.conteudo-s-titulo{
     /*fonte*/
     font-weight: 400;
     font-size: 24px;
@@ -95,24 +131,7 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
-.conteudo-secundario-paragrafo{
-    /*fonte*/
-    font-weight: 300;
-    font-size: 18px;
-    color:#7f7f7f;
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-.conteudo-terciario-titulo{
-    /*fonte*/
-    font-weight: 400;
-    font-size: 24px;
-    color: #7f7f7f;
-    margin-bottom: 16px;
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-.conteudo-terciario-paragrafo{
+.conteudo-s-paragrafo{
     /*fonte*/
     font-weight: 300;
     font-size: 18px;
@@ -121,6 +140,7 @@ body{
 }
 
 .rodape{
+    background-color:#b6d7db;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -137,7 +157,7 @@ body{
     flex-direction: column;
 }
 
-.rodape-menu-item{
+.rodape-item{
     flex-direction: row;
     color: #7f7f7f;
     font-weight: 300;
@@ -146,22 +166,12 @@ body{
 
 .partebranca{/*tem que colocar esse do lado do outro, mudar fonte e adicionar logo lá em cima+foto do lado do titulo e mudar as cores*/
     background-color: #b6d7db;
-    width: 300px;
-    padding: 40px;
-    margin: 40px auto 0 auto;
-    box-shadow: 0px 6px 10px;
-    border-radius: 5px;
-    margin-bottom: 60px;
+    width: 50%;
+    padding: 24px;
+    box-shadow: 1px 1px 10px;
+    border-radius: 6px;
+    margin-bottom: 10%;
     margin-left: 5%;
-}
-
-.partebrancad{
-    background-color: #b6d7db;
-    width: 300px;
-    padding: 40px;
-    margin: 40px auto 0 auto;
-    box-shadow: 0px 6px 10px;
-    border-radius: 5px;
-    margin-bottom: 60px;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
 }
