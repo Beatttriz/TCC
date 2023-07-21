@@ -40,6 +40,7 @@ body{
 }
 
 .cabecalho-item{
+<<<<<<<< Updated upstream:css/doe.css
     /*fon-family*/
     display: flex;
     color: #979696;
@@ -48,6 +49,24 @@ body{
     font-family: 'GFS Neohellenic', sans-serif;
 }
 .cabecalho-item:hover{
+========
+    font-weight: bold;
+    transition: 0.5s;
+    display: flex;
+    color: #979696;
+    font-size: 15px;   
+    justify-content: center;
+    font-family: 'Arial','GFS Neohellenic', sans-serif;
+    cursor: pointer;
+}
+.cabecalho-item:hover{
+    font-weight: bold;
+    border-bottom: 0.1px solid #7f7f7f;
+    display: inline-block;
+    outline: 0;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+>>>>>>>> Stashed changes:CSS/quem.css
     color: #646464;
 }
 
