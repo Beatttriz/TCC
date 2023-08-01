@@ -3,31 +3,35 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" type="image/png" href="imagensIndex/library.png"/>
         <link rel="stylesheet" type="text/css" href="login.css" media="screen">
         <title>Login</title>
     </head>
-    <body>  
-        <div class="quadrado">
-            <fieldset>
-                <div>
-                    <h1 id="titulo">Login</h1>
-                    <br>
-                </div>
-                <form>
-                    <div class="campo">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div class="campo">
-                        <label for="senha">Senha de acesso</label>
-                        <input type="password" name="senha" id="senha" required>
-                    </div>
-                    <button class="botao" type="submit" onsubmit="">Acessar</button>  
-                    <a class="mensagem" href="cadastro.html"> Não tenho cadastro </a>      
+    <body>
 
-                </form>
-            </fieldset>
-        </div>        
+            <form>
+                <div class="quadrado">
+                    <div id="titulo">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="juntar">
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="campo">
+                            <label for="senha">Senha de acesso</label>
+                            <input type="password" name="senha" id="senha" required>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <button class="botao1" type="submit">Acessar</button>  
+                    </div>
+                    <div class="campo">
+                        <a class="botao2" href="index.html">Voltar</a>
+                    </div>
+                    <!--       <a href="index.html"> <img class="cabecalho-imagem" src="D:\TCC\imagensIndex\library.png" alt="Logo da Biblioteca da Meia-Noite"></a>  -->
+                </div>
+            </form>
+            <a class="mensagem" href="cadastro.html" >Não tenho cadastro</a>
     </body>
 </html>

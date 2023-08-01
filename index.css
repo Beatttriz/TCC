@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background-color: #d9d9d8;
+    background-color: #dadada;
 }
 
 .cabecalho{
@@ -18,14 +18,14 @@ body{
     align-items: center;
     padding: 24px;
     justify-content: space-between;
-    background-color: #b6d7db;
+    background-color: #c6f0f5;
 }
 
 .cabecalho-imagem{
     height: 59px;
     padding: 5px;
     flex-direction: start;
-    margin-left: 30px;
+    margin-left: 20px;
     float: left;
 }
 
@@ -45,8 +45,6 @@ body{
     gap: 20px;
 }
 
-
-
 .logo img{
     padding-left: 0px;
 }
@@ -57,7 +55,7 @@ body{
     transition: 0.5s;
     display: flex;
     color: #979696;
-    font-size: 15px;   
+    font-size: 1.1rem;   
     justify-content: center;
     font-family: 'Arial','GFS Neohellenic', sans-serif;
     cursor: pointer;
@@ -92,16 +90,19 @@ body{
 }
 
 .conteudo-pe-titulo{
-    margin-right: 100px;
-    font-weight: bold;    
-    font-size: 15px;
+    /*font-family*/
+    margin-right: 90px;
+    font-weight: bold;
+    font-size: 1.2rem;
     color: #7f7f7f;
-    font-family: 'Arial','GFS Neohellenic', sans-serif;   
+    font-family:Arial, Helvetica, sans-serif;
 }
+
 .conteudo-pe-subtitulo{
     /*fonte*/
+    align-items: center;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #7f7f7f;
     font-family: 'GFS Neohellenic', sans-serif;
 }
@@ -122,8 +123,9 @@ body{
 
 .conteudo-s-titulo{
     /*fonte*/
-    font-weight: 400;
-    font-size: 24px;
+    transition: 0.6s;
+    font-weight: bold;
+    font-size: 2dvh;   
     color: #7f7f7f;
     margin-bottom: 16px;
     font-family: 'GFS Neohellenic', sans-serif;
@@ -131,14 +133,17 @@ body{
 
 .conteudo-s-paragrafo{
     /*fonte*/
+    font-weight: bold;
+    font-size: 2dvh; 
+    transition: 0.6s;
     font-weight: 300;
     font-size: 18px;
     color:#7f7f7f;
-    font-family: 'GFS Neohellenic', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .rodape{
-    background-color:#b6d7db;
+    background-color: #c6f0f5;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -157,13 +162,20 @@ body{
 
 .rodape-item{
     flex-direction: row;
-    color: #7f7f7f;
-    font-weight: 300;
-    font-size: 18px;   
+    color: #747474;
+    font-weight: bold;
+    font-size: 1.5dvh;   
 }
 
-.partebranca{/*tem que colocar esse do lado do outro, mudar fonte e adicionar logo lá em cima+foto do lado do titulo e mudar as cores*/
-    background-color: #b6d7db;
+.rodape-item1{
+    flex-direction: row;
+    color: #646464;
+    font-weight: bold;
+    font-size: 1.5dvh;   
+}
+
+.partebranca{
+    background-color: #c6f0f5;
     width: 50%;
     padding: 24px;
     box-shadow: 1px 1px 10px;
@@ -172,4 +184,18 @@ body{
     margin-left: 5%;
     margin-top: 5%;
     margin-right: 5%;
+    transition: 0.6s;   
 }
+
+.partebranca:hover{
+    background-color: #eeeaea;
+    padding: 25px;
+    box-shadow: 1px 1px 10px #49585a;
+    .conteudo-s-paragrafo{
+        color:#646464;
+    }
+    .conteudo-s-titulo{
+        color:#646464;
+    }
+}
+
