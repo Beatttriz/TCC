@@ -32,7 +32,7 @@ p{
 }
 
 .btn{
-    background-color: aqua;
+    background-color: rgb(177, 194, 194);
     color:black;
     padding: 15px 20px;
     cursor: pointer;
@@ -42,7 +42,7 @@ p{
 }
 
 .btn:hover{
-    background-color: rgb(193, 134, 24) ;
+    background-color: rgb(247, 236, 215) ;
 }
 
 
@@ -104,8 +104,8 @@ nav ul a:hover::after{
 }
 
 .banner .banner-text p{
-    font-size: 20px;
-    color: #ffffffb7;
+    font-size: 30px;
+    color: white;
     font-weight: lighter;
     margin: 18px 0;
 }
