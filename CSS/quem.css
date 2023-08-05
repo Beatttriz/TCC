@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*colocar texto em blocos*/
+body{
+    font-size: 100%;
+    background-color: #f7f7f5;
+   /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;*/
+}
+.cabecalho{
+    background-color: gray;
+    padding: 24px;
+}
+/*
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f7f7f5;
+    padding: 24px;
+    background-color: #b6d7db;
+}
+
+.cabecalho-imagem{
+    height: 59px;
+    flex-direction: start;
+    margin-right: 770px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item{
+    /*fon-family*//*
+    font-weight: bold;
+    transition: 0.5s;
+    display: flex;
+    color: #979696;
+    font-size: 15px;   
+    justify-content: center;
+    font-family: 'Arial','GFS Neohellenic', sans-serif;
+    cursor: pointer;
+}
+.cabecalho-item:hover{
+    font-weight: bold;
+    border-bottom: 0.1px solid #7f7f7f;
+    display: inline-block;
+    outline: 0;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    color: #646464;
+}
+
+.conteudo{
+    margin-bottom: 25px;
+    border-top: 0.4px solid #7f7f7f;
+    
+}
+/*
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}*/
+
+.textos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.titulo{
+    font-weight: 500;
+    font-size: 75px;
+    color: #7f7f7f;
+    font-family: 'GFS Neohellenic', sans-serif;
+    margin-top: 48px;
+}
+
+.nome{
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.nomes{
+    font-weight: 400;
+    font-size: 55px;
+    color: #7f7f7f;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.sinopse{
+    font-weight: 300;
+    font-size: 35px;
+    color:#7f7f7f;
+    font-family: 'GFS Neohellenic', sans-serif;
+    margin-bottom: 25px;
+}
+
+.imagem-Emi{
+    height: 43px;
+}
+
+.imagem-Bia{
+    height: 43px;
+}
+
+.rodape{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 24px;
+    max-height: 300px;
+    background-color: gray;
+}
+
+.rodap{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rodape-item{
+    flex-direction: row;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.img-logo{
+    height: 59px;
+    padding: 5px;
+    flex-direction: start;
+    margin-right: 900px;
+    float: left;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(65, 65, 65);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    display: block;
+
+}
+
+nav ul a::after{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
