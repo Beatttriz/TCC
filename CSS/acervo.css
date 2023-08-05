@@ -11,68 +11,11 @@ body{
     font-size: 100%;
     background-color: #d9d9d8;
 }
+
 .cabecalho{
     background-color: gray;
     padding: 24px;
-}/*
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 24px;
-    justify-content: space-between;
-    background-color: #98ced4;
-    border-bottom: 0.4px solid #7f7f7f;
 }
-
-.logo {
-    margin-right: 90px;
-    font-weight: bold;
-    font-size: 9px;
-    color: #7f7f7f;
-    font-family:Arial, Helvetica, sans-serif;
-    align-items: center;
-    display: flex;
-    gap: 20px;
-}
-
-.logo img{
-    padding-left: 0px;
-}
-
-.cabecalho-imagem{
-    height: 59px;
-    padding: 5px;
-    flex-direction: start;
-    margin-left: 20px;
-    float: left;
-}
-
-.cabecalho-menu{
-    display: flex;
-    gap: 32px;
-}
-
-.cabecalho-item{
-    /*fon-family*//*
-    font-weight: bold;
-    transition: 0.5s;
-    display: flex;
-    color: #979696;
-    font-size: 15px;   
-    justify-content: center;
-    font-family: 'Arial','GFS Neohellenic', sans-serif;
-    cursor: pointer;
-}
-.cabecalho-item:hover{
-    font-weight: bold;
-    border-bottom: 0.1px solid #7f7f7f;
-    display: inline-block;
-    outline: 0;
-    letter-spacing: 1px;
-    padding-bottom: 5px;
-    color: #646464;
-}*/
 
 .genero{
     display: flex;
@@ -105,7 +48,6 @@ body{
     gap: 12px;
     flex-wrap: wrap;
     flex-direction: column;
-
     flex-direction: row;
 }
 
@@ -114,9 +56,8 @@ body{
     font-weight: 600;
     font-size: 30px;
     font-family: 'GFS Neohellenic', sans-serif;
-    
     display:flex;
-    flex-direction: column; /*era row antes*/
+    flex-direction: column; 
     align-items: center;
 
 }

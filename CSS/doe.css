@@ -6,77 +6,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/*colocar texto em blocos*/
 body{
     font-size: 100%;
     background-color: #f7f7f5;
-   /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 24px;*/
 }
+
 .cabecalho{
     background-color: gray;
     padding: 24px;
 }
-/*
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #f7f7f5;
-    padding: 24px;
-    background-color: #b6d7db;
-}
-
-.cabecalho-imagem{
-    height: 59px;
-    flex-direction: start;
-    margin-right: 770px;
-    margin-left: 20px;
-    padding: 5px;
-}
-
-.cabecalho-menu{
-    display: flex;
-    gap: 32px;
-}
-
-.cabecalho-item{
-    /*fon-family*//*
-    font-weight: bold;
-    transition: 0.5s;
-    display: flex;
-    color: #979696;
-    font-size: 15px;   
-    justify-content: center;
-    font-family: 'Arial','GFS Neohellenic', sans-serif;
-    cursor: pointer;
-}
-.cabecalho-item:hover{
-    font-weight: bold;
-    border-bottom: 0.1px solid #7f7f7f;
-    display: inline-block;
-    outline: 0;
-    letter-spacing: 1px;
-    padding-bottom: 5px;
-    color: #646464;
-}*/
-/*
-.conteudo{
-    margin-bottom: 25px;
-    border-top: 0.4px solid #7f7f7f;
-    
-}
-/*
-.conteudo-principal{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 100px;
-}*/
 
 .textos{
     display:flex;

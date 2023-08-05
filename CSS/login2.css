@@ -144,22 +144,26 @@ body * {
     .card{
         flex-direction: column;
     }
+
     .left-login > h1{
         display: none;
     }
+
     .left-login{
         width: 100%;
         height: auto;
     }
+
     .right-login{
         width: 100%;
         height: auto;
     }
+
     .left-login-img{
         width: 50vw;
     }
+
     .card{
         width: 90%;
     }
 }
-

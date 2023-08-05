@@ -12,8 +12,6 @@ body{
     background-color: #f1f6fc31;
 }
 
-
-
 section,
 footer {
     padding: 54px 0;
@@ -116,11 +114,11 @@ nav ul a:hover::after{
 }
 
 .img-logo{
-        height: 59px;
-        padding: 5px;
-        flex-direction: start;
-        margin-left: 20px;
-        float: left;
+    height: 59px;
+    padding: 5px;
+    flex-direction: start;
+    margin-left: 20px;
+    float: left;
 }
 
 .saiba .container{
