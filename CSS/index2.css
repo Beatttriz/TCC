@@ -67,7 +67,7 @@ nav ul{
 }
 
 nav ul a{
-    color: rgb(65, 65, 65);
+    color: rgb(41, 41, 41);
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 14px;
@@ -155,6 +155,36 @@ nav ul a:hover::after{
 }
 
 .rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape i{
+    color: black;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.rodape .rodap .rodape-item{
+    margin: 5px;
+}
+
+.rodape .rodap .rodape-item,
+.rodape .rodap .rodape-item1{
+    font-size: 10px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape p{
+    margin-top: 10px;
+}
+/*
+.rodape{
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -175,4 +205,76 @@ nav ul a:hover::after{
     color: white;
     font-weight: 300;
     font-size: 18px;
+}
+*/
+
+.cpandora h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cpandora p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.cpandora .card-item{
+    background-color: rgb(198, 197, 197);
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 900px;
+    height: 60vh;
+    transition: 0.3s;
+}
+
+.cpandora .card-item img{
+    border-radius: 100%;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.cpandora .card-item .titulo-card{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+    transition: 0.3s;
+}
+
+.cpandora .card-item .conteudo-card{
+    font-size: 15px;
+    padding: 0 15px;
+    color: rgb(28, 27, 27);
+    transition: 0.3s;
+}
+
+.cpandora .card-item .book{
+    margin: 15px 0;
+    border-top: 2px solid #f1f6fc31;
+    transition: 0.3s;
+}
+
+.cpandora .card-item .book i{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.cpandora .card-item:hover{
+    background-color: rgb(8, 8, 7);
+    margin-top: -4px;
+}
+
+.cpandora .card-item:hover .titulo-card,
+.cpandora .card-item:hover .conteudo-card,
+.cpandora .card-item:hover .book{
+    color: rgb(239, 244, 247);
 }
