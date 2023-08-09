@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: white;
+}
+
+.cabecalho{
+    background-color: gray;
+    padding: 24px;
+}
+
+.genero{
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 300px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    margin-left: 100px;
+}
+
+.genero img {
+    margin-right: 130px;
+    margin-top: 100px;
+    height: 300px;
+    padding: 5px;
+    flex-direction: start;
+    margin-left: 20px;
+    float: left;
+    transition: 1s;
+}
+
+.dividi{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+}
+
+.meo{
+    color: #7f7f7f; 
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.a{
+    flex-direction: row;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 24px;
+    max-height: 300px;
+    background-color: gray;
+    margin-top: 90%;
+}
+
+.rodap{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rodape-item{
+    flex-direction: row;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.img-logo{
+    height: 59px;
+    padding: 5px;
+    flex-direction: start;
+    margin-right: 900px;
+    float: left;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(65, 65, 65);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    display: block;
+}
+
+nav ul a::after{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
+
+.pbranca{
+    background-color: white;
+    width: 22.5%;
+    padding: 12px;
+    box-shadow: 1px 1px 10px;
+    border-radius: 6px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.pbranca:hover{/*
+    width: ;*/
+}
