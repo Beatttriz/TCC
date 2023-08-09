@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/acervo.css" media="screen">
-    <link rel="icon" type="image/png" href="..\imagensIndex\library.png"/>
+    <link rel="icon" type="image/png" href="..\imagensIndex\opc3-library.png"/>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fim font awesome-->
     <title>Nosso acervo</title>
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header>
+        <div class="container">
         <nav>
             <a href="">
-                <a href="index2.html"><img class="img-logo" src="..\imagensIndex\library.png" alt="Logo da Biblioteca da Meia-Noite">
+                <a href="index2.html"><img class="img-logo" src="..\imagensIndex\opc3-library.png" alt="Logo da Biblioteca da Meia-Noite">
             </a>
-
             <ul class="ul">
                 <a href="../pages/sobre.html">Sobre</a>
                 <a href="../pages/doe.html">Doe livros</a>
@@ -22,10 +25,11 @@
                 <a href="../pages/cadastro2.html">Cadastre-se</a>
             </ul>
         </nav>
+        </div>
     </header>
 
-    <main class="genero">
-        <nav class="dividi">
+    <main class="generos">
+        <nav class="divisao">
             <div class="meo" >
                 <a class="a" href="infantil.html"><img src="../imagensIndex/hermes (1).jpg" alt="Hermes">Hermes <br> Infantil</a>
             </div>
@@ -46,7 +50,7 @@
             </div>
         </nav>
 
-        <nav class="dividi">
+        <nav class="divisao">
             <div class="meo">
                 <img src="../imagensIndex/afrodite.jpg" alt="Afrodite">
                 <p>Afrodite<br> Romance</p>
@@ -68,7 +72,7 @@
             </div>
         </nav>
 
-        <nav class="dividi">
+        <nav class="divisao">
             <div class="meo">
                 <img src="../imagensIndex/ares.jpg" alt="Ares">
                 <p>Ares <br> Ação</p>
@@ -89,7 +93,7 @@
                 <p>Hades<br>Terror</p>
             </div>
         </nav>
-        <nav class="dividi">
+        <nav class="divisao">
             <div class="meo">
                 <img src="../imagensIndex/narciso.jpg" alt="Narciso">
                 <p>Narciso<br>Biografias</p>
@@ -109,17 +113,22 @@
     </main>
 
     <footer class="rodape">
-        <nav class="rodap">
-            <a class="rodape-item">Redes socias:<br><br>Instagram<br><br>TikTok<br><br>Pinterest</a>
-        </nav>
-        
-        <nav class="rodap">
-            <a class="rodape-item">Parceiros:<br><br>Capão shopping<br><br>Petit Planet<br><br>Pizza Planet</a>
-        </nav>
-
-        <nav class="rodap">
-            <a class="rodape-item">Política de privacidade<br><br>Termos e condições</a>
-        </nav>
+        <div class="container">
+            <div class="icons">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <div class="rodap">
+                    <p><a href= "#" class="rodape-item">Parceiros:</a></p>
+                    <p><a href= "#" class="rodape-item">Capão shopping</a>
+                    <a href= "#" class="rodape-item">Petit Planet</a>
+                    <a href= "#"  class="rodape-item">Pizza Planet</a></p>
+                    <p><a href= "#" class="rodape-item1">Política de privacidade</a></p>
+                    <p><a href= "#" class="rodape-item1">Termos e condições</a></p>
+                </div>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
