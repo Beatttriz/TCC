@@ -13,6 +13,12 @@ body{
     background-color: white;
 }
 
+section,
+footer {
+    padding: 54px 0;
+    margin-top: 20%;
+}
+
 .cabecalho{
     background-color: gray;
     padding: 24px;
