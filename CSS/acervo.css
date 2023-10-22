@@ -10,21 +10,8 @@
 
 body{
     background-color: #d9d9d8;
+    font-size: 100%;
 }
-
-/*
-.cabecalho{
-    background-color: gray;
-    padding: 24px;
-}
-*/
-
-section,
-footer {
-    padding: 54px 0;
-    margin-top: 110%;
-}
-
 
 header{
     background-color: #7f7f7f;
@@ -33,12 +20,78 @@ header{
     background-attachment: fixed;
 }
 
+.cabecalho{
+    background-color: gray;
+    padding: 24px;
+}
+
 .container{
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 0.5%;
 } 
+
+.img-logo{
+    height: 59px;
+    padding: 5px;
+    flex-direction: start;
+    margin-bottom: 20px;
+    float: left;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(65, 65, 65);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    display: block;
+
+}
+
+nav ul a::after{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+section,
+footer {
+    padding: 54px 0;
+    margin-top: 110%;
+}
+
+
 
 .generos{
     display: flex;
@@ -130,47 +183,3 @@ header{
     margin-top: 10px;
 }
 
-.img-logo{
-    height: 59px;
-    padding: 5px;
-    flex-direction: start;
-    margin-bottom: 20px;
-    float: left;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 30px;
-    cursor: pointer;
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-}
-
-nav ul a{
-    color: rgb(65, 65, 65);
-    margin: 0 25px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 800;
-    display: block;
-
-}
-
-nav ul a::after{
-    content: "";
-    display: block;
-    background-color: black;
-    height: 3px;
-    width: 0%;
-    transition: 0.3s;
-    margin: 0 auto;
-}
-
-nav ul a:hover::after{
-    width: 100%;
-}
