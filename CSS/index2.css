@@ -12,45 +12,24 @@ body{
     background-color: #f1f6fc31;
 }
 
-section,
-footer {
-    padding: 54px 0;
-}
-
-h3{
-    font-size: 50px;
-}
-
-p{
-    color: #0000009c;
+header{
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
 }
 
 .container{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
-}  
+} 
 
-.btn{
-    background-color: rgb(209, 209, 209);
-    color:black;
-    font-weight: 500;
-    padding: 15px 20px;
-    cursor: pointer;
-    display: inline-block;
-    transition: 0.1s;
-    border-radius: 10px;
-}
-
-.btn:hover{
-    background-color: rgb(83, 83, 83) ;
-}
-
-
-header{
-    background-position: center;
-    background-size: cover; 
-    background-attachment: fixed;
+.img-logo{
+    height: 59px;
+    padding: 5px;
+    flex-direction: start;
+    margin-left: 20px;
+    float: left;
 }
 
 nav{
@@ -67,10 +46,10 @@ nav ul{
 }
 
 nav ul a{
-    color: rgb(41, 41, 41);
+    color: white;
     margin: 0 25px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800;
     display: block;
 
@@ -89,6 +68,46 @@ nav ul a::after{
 nav ul a:hover::after{
     width: 100%;
 }
+
+/*
+
+
+
+
+
+
+
+
+
+
+h3{
+    font-size: 50px;
+}
+
+p{
+    color: #0000009c;
+}
+
+ 
+
+.btn{
+    background-color: rgb(209, 209, 209);
+    color:black;
+    font-weight: 500;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(83, 83, 83) ;
+}
+
+
+
+
 
 .banner{
     display: flex;
@@ -113,13 +132,7 @@ nav ul a:hover::after{
     margin: 18px 0;
 }
 
-.img-logo{
-    height: 59px;
-    padding: 5px;
-    flex-direction: start;
-    margin-left: 20px;
-    float: left;
-}
+
 
 .saiba .container{
     display: flex;
@@ -154,59 +167,7 @@ nav ul a:hover::after{
     width: 90%;
 }
 
-.rodape{
-    background-color: black;
-    text-align: center;
-}
 
-.rodape i{
-    color: black;
-    font-size: 19px;
-    background-color: white;
-    padding: 10px;
-    margin: 3px;
-    border-radius: 10px;
-}
-
-.rodape .rodap .rodape-item{
-    margin: 5px;
-}
-
-.rodape .rodap .rodape-item,
-.rodape .rodap .rodape-item1{
-    font-size: 10px;
-    color: white;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.rodape p{
-    margin-top: 10px;
-}
-/*
-.rodape{
-    display: flex;
-    align-items: stretch;
-    justify-content: space-evenly;
-    padding: 24px;
-    max-height: 300px;
-    background-color: gray;
-}
-
-.rodap{
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.rodape-item{
-    flex-direction: row;
-    color: white;
-    font-weight: 300;
-    font-size: 18px;
-}
-*/
 
 .cpandora h3{
     text-align: center;
@@ -277,4 +238,49 @@ nav ul a:hover::after{
 .cpandora .card-item:hover .conteudo-card,
 .cpandora .card-item:hover .book{
     color: rgb(239, 244, 247);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+section,
+footer {
+    padding: 54px 0;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape i{
+    color: black;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.rodape .rodap .rodape-item{
+    margin: 5px;
+}
+
+.rodape .rodap .rodape-item,
+.rodape .rodap .rodape-item1{
+    font-size: 10px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape p{
+    margin-top: 10px;
 }
