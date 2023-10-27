@@ -69,26 +69,13 @@ nav ul a:hover::after{
     width: 100%;
 }
 
-/*
-
-
-
-
-
-
-
-
-
-
 h3{
     font-size: 50px;
 }
 
 p{
     color: #0000009c;
-}
-
- 
+} 
 
 .btn{
     background-color: rgb(209, 209, 209);
@@ -104,10 +91,6 @@ p{
 .btn:hover{
     background-color: rgb(83, 83, 83) ;
 }
-
-
-
-
 
 .banner{
     display: flex;
@@ -131,8 +114,6 @@ p{
     font-weight: lighter;
     margin: 18px 0;
 }
-
-
 
 .saiba .container{
     display: flex;
@@ -166,8 +147,6 @@ p{
 .saiba .saiba-img2 img{
     width: 90%;
 }
-
-
 
 .cpandora h3{
     text-align: center;
@@ -239,16 +218,6 @@ p{
 .cpandora .card-item:hover .book{
     color: rgb(239, 244, 247);
 }
-*/
-
-
-
-
-
-
-
-
-
 
 section,
 footer {
