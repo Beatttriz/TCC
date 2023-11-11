@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #00000057;
+    background-color: #666666;
 }
 
 header{
@@ -46,7 +46,7 @@ nav ul{
 }
 
 nav ul a{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 16px;
@@ -58,7 +58,7 @@ nav ul a{
 nav ul a::after{
     content: "";
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     height: 3px;
     width: 0%;
     transition: 0.3s;
@@ -71,15 +71,16 @@ nav ul a:hover::after{
 
 h3{
     font-size: 50px;
+    color: #ffffff;
 }
 
 p{
-    color: #0000009c;
+    color:#ffffff;
 } 
 
 .btn{
-    background-color: rgb(219, 219, 219);
-    color:black;
+    background-color: #ffffff;
+    color:#000000;
     font-weight: 500;
     padding: 15px 20px;
     cursor: pointer;
@@ -89,7 +90,8 @@ p{
 }
 
 .btn:hover{
-    background-color: rgb(83, 83, 83) ;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .banner{
@@ -105,12 +107,12 @@ p{
 
 .banner .banner-text h1{
     font-size: 96px;
-    color: white;
+    color: #ffffff;
 }
 
 .banner .banner-text p{
     font-size: 30px;
-    color: white;
+    color: #ffffff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
     margin: 18px 0;
@@ -132,7 +134,7 @@ p{
 .saiba .saiba-text p{
     margin: 5px 0 10px 0;
     font-weight: 900;
-    color: black;
+    color: #ffffff;
 }
 
 .saiba .saiba-img1{
@@ -168,7 +170,7 @@ p{
 }
 
 .cpandora .card-item{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     margin: 25px;
     border-radius: 14px;
     text-align: center;
@@ -189,20 +191,20 @@ p{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
-    color: black;
+    color: #000000;
     transition: 0.3s;
 }
 
 .cpandora .card-item .conteudo-card{
     font-size: 15px;
     padding: 0 15px;
-    color: rgb(28, 27, 27);
+    color: #000000;
     transition: 0.3s;
 }
 
 .cpandora .card-item .book{
     margin: 15px 0;
-    border-top: 2px solid #f1f6fc31;
+    border-top: 2px solid #000000;
     transition: 0.3s;
 }
 
@@ -212,13 +214,13 @@ p{
 }
 
 .cpandora .card-item:hover{
-    background-color: rgb(8, 8, 7);
+    background-color: #000000;
 }
 
 .cpandora .card-item:hover .titulo-card,
 .cpandora .card-item:hover .conteudo-card,
 .cpandora .card-item:hover .book{
-    color: rgb(239, 244, 247);
+    color: #ffffff;
 }
 
 section,
@@ -227,14 +229,14 @@ footer {
 }
 
 .rodape{
-    background-color: black;
+    background-color:#000000;
     text-align: center;
 }
 
 .rodape i{
-    color: black;
+    color: #000000;
     font-size: 19px;
-    background-color: white;
+    background-color: #ffffff;
     padding: 10px;
     margin: 3px;
     border-radius: 10px;
@@ -247,7 +249,7 @@ footer {
 .rodape .rodap .rodape-item,
 .rodape .rodap .rodape-item1{
     font-size: 10px;
-    color: white;
+    color: #ffffff;
     flex-direction: column;
     justify-content: space-between;
 }

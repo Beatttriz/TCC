@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #f1f6fc31;
+    background-color: #f4f4f4;
 }
 
 .cabecalho{
@@ -120,108 +120,80 @@ footer {
 
 
 
-h3{
-    font-size: 50px;
-}
 
-p{
-    color: #0000009c;
-}
+
+
+
+
+
 
 .container{
-    max-width: 1400px;
+    width: 50%;
     margin: 0 auto;
     padding: 0 5%;
 }  
 
-.conteudo .container{
-    display: flex;
-    align-items: center;
-}
-
-.conteudo .conteudo-text{
-    width: 50%;
-}
-
 .conteudo .conteudo-text h3{
-    font-size: 50px;
+    font-size: 75px;
+    margin-left: 25%;
 }
 
-.conteudo .conteudo-text p{
-    margin: 25px 0 10px 0;
+.conteudo .conteudo-text h2{
+    font-size: 40px;
+    margin-left: 5%;  
 }
 
-.conteudo .conteudo-img1{
-    width: 50%;
-}
 
-.conteudo .conteudo-img1 img{
-    width: 80%;
-    border-radius: 100%;
-    display: block;
-    margin: 10px auto;
 
-}
 
-/*conteudobeainicio*/
 
-.conteudobea .container{
-    background-color: rgb(203, 203, 203);
-    display: flex;
-    align-items: center;
-}
-
-.conteudobea .conteudobea-text{
-    width: 50%;
-}
-
-.conteudobea .conteudobea-text h3{
-    font-size: 50px;
-}
-
-.conteudobea .conteudobea-text p{
-    margin: 25px 0 10px 0;
-}
-
-.conteudobea .conteudobea-img{
-    width: 50%;
-}
-
-.conteudobea .conteudobea-img img{
-    border-radius: 10px;
-    width: 250px;
-    display: block;
-    margin: 10px auto;
-}
-
- /*conteudoeme inicio*/
 
  
 .conteudoeme .container{
-    background-color: rgb(203, 203, 203);
-    display: flex;
-    align-items: center;
+    background-color: #666;
+    color: #ffffff;
+    width: 70%;
+   height: 350px;
 }
 
-.conteudoeme .conteudoeme-text{
-    width: 50%;
+.conteudo-text{
+    color: #666;
 }
 
-.conteudoeme .conteudoeme-text h3{
-    font-size: 50px;
+.conteudoeme-text1 h3{
+
+     font-size: 35px;
+    margin-left: 40%;
 }
 
-.conteudoeme .conteudoeme-text p{
-    margin: 25px 0 10px 0;
+.conteudoeme-text1 p{
+
+    font-size: 30px;
 }
 
-.conteudoeme .conteudoeme-img{
-    width: 50%;
+.conteudoeme-text2 h3{
+    font-size: 35px;
+    margin-left: 40%; 
 }
 
-.conteudoeme .conteudoeme-img img{
-    border-radius: 10px;
-    width: 250px;
-    display: block;
-    margin: 10px auto;
+.conteudoeme-text2 p{
+    font-size: 30px;
+}
+
+.conteudoeme-text3 h3{
+    font-size: 35px;
+    margin-left: 38%;
+}
+
+.conteudoeme-text3 p{
+    font-size: 30px;
+}
+
+.conteudoeme-text4 h3{
+    font-size: 35px;
+    margin-left: 30%;
+}
+
+.conteudoeme-text4 p{
+    font-size: 30px;
 }

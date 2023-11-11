@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #f1f6fc31;
+    background-color:    #dadada  ;
 }
 
 .cabecalho{
@@ -59,7 +59,7 @@ nav ul a{
 nav ul a::after{
     content: "";
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     height: 3px;
     width: 0%;
     transition: 0.3s;
@@ -101,7 +101,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: white;
+    background-color: #f4f4f4;
     width: 250%;
     padding: 20px;
     box-shadow: 0.5px 0.5px 5px;
@@ -114,7 +114,7 @@ footer {
 
 
 .meo{
-    color: #7f7f7f; 
+    color: #666666; 
     font-weight: 600;
     font-size: 30px;
     font-family: 'GFS Neohellenic', sans-serif;
@@ -125,7 +125,7 @@ footer {
 
 .a{
     flex-direction: row;
-    color: #7f7f7f;
+    color: #666666;
     font-weight: 600;
     font-size: 30px;
     font-family: 'GFS Neohellenic', sans-serif;
@@ -163,14 +163,14 @@ footer {
 
 .bot button{
     border: none;
-    background-color: #a0c4c7;
+    background-color: #666666;
     padding: 1rem 3rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .bot button:hover{
-    background-color: #95cad0;
+    background-color: #dadada;
 }
 
 .bot button a{
@@ -178,6 +178,10 @@ footer {
     font-weight: 600;
     font-size: 20px;
     color: #fff;
+}
+
+.bot button a:hover{
+    color: #666666;
 }
 .rodape{
     background-color: black;

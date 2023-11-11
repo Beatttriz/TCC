@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #f1f6fc31;
+    background-color: #dadada;
 }
 
 .cabecalho{
@@ -27,7 +27,7 @@ h3{
 }
 
 p{
-    color: #0000009c;
+    color: #000000;
 }
 
 .container{
@@ -71,7 +71,7 @@ nav ul a{
 nav ul a::after{
     content: "";
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     height: 3px;
     width: 0%;
     transition: 0.3s;
@@ -123,21 +123,24 @@ nav ul a:hover::after{
 /*conteudobeainicio*/
 
 .conteudobea .container{
-    background-color: rgb(203, 203, 203);
+    background-color: #000000;
     display: flex;
     align-items: center;
 }
 
 .conteudobea .conteudobea-text{
     width: 50%;
+    color: #ffffff;
 }
 
 .conteudobea .conteudobea-text h3{
     font-size: 50px;
+    color: #ffffff;
 }
 
 .conteudobea .conteudobea-text p{
     margin: 25px 0 10px 0;
+    color: #ffffff;
 }
 
 .conteudobea .conteudobea-img{
@@ -155,21 +158,24 @@ nav ul a:hover::after{
 
  
 .conteudoeme .container{
-    background-color: rgb(203, 203, 203);
+    background-color: #ffffff;
     display: flex;
     align-items: center;
 }
 
 .conteudoeme .conteudoeme-text{
     width: 50%;
+    color: #000000;
 }
 
 .conteudoeme .conteudoeme-text h3{
     font-size: 50px;
+    color: #000000;
 }
 
 .conteudoeme .conteudoeme-text p{
     margin: 25px 0 10px 0;
+    color: #000000;
 }
 
 .conteudoeme .conteudoeme-img{
